@@ -1,0 +1,15 @@
+s=input()
+l=[]
+for i in s:
+    if i.isalpha():
+        l.append(i)
+a=list(set(l))
+for j in range(len(a)):
+    if a[j].isalpha():
+        if(len(a)==26):
+            print("yes")
+            break
+else:
+    print("no")
+
+
